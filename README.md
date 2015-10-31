@@ -32,6 +32,18 @@ define('PN_SOCKET_PORT', 12345);
 
 /*Time Interval for notifications to send in Seconds*/
 define('PN_TIME_INTERVAL', 20);
+
+/*DB NAME*/
+define('PN_DB_NAME', 'pn_test');
+
+/*DB USER*/
+define('PN_DB_USERNAME', 'root');
+
+/*DB PASSWORD*/
+define('PN_DB_PASSWORD','');
+
+/*DB PASSWORD HASH*/
+define('PN_DB_PASSWORD_SALT','hTj7d2');
 ```
 
 Daemon for Notifications 
@@ -50,6 +62,7 @@ User Details
 Known Issues
 ==================
   * Due to time limitation, DataBase integration to store notification into DB is not implemented
+  * So user will not see notification on page refresh
   * Test user details are pre-populated into DB
   * User Logout functionality is missing
 
