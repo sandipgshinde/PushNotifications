@@ -45,6 +45,9 @@ define('PN_DB_PASSWORD','');
 /*DB PASSWORD HASH*/
 define('PN_DB_PASSWORD_SALT','hTj7d2');
 ```
+Import DB
+==================
+Import DB from  ```pn_test.sql```  it contains DB create and table creation SQL.
 
 Daemon for Notifications 
 ==================
