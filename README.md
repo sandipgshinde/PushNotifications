@@ -48,7 +48,7 @@ define('PN_DB_PASSWORD_SALT','hTj7d2');
 
 Daemon for Notifications 
 ==================
-And daemon as ```controller/pushnotifications.php``` ELSE for testing hit URL ```http://<IP_ADDRESS>/<APP_DIR_NAME>/controller/pushnotifications.php```
+Add daemon as ```controller/pushnotifications.php``` ELSE for testing hit URL ```http://<IP_ADDRESS>/<APP_DIR_NAME>/controller/pushnotifications.php```
 
 Running Web Application
 ==================
