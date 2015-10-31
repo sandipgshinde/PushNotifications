@@ -66,12 +66,11 @@ Known Issues
 ==================
   * Due to time limitation, DataBase integration to store notification into DB is not implemented
   * So user will not see notification on page refresh
-  * Test user details are pre-populated into DB
   * User Logout functionality is missing
 
 Requirements
 =================
 *Server*
- * PHP 5.4+
+ * PHP 5+
  * Open port for the server
  * http://pecl.php.net/package/pecl_http as its a dependency of Zend\Uri
